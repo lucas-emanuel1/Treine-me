@@ -1,0 +1,88 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+html, body {
+  height: 100vh;
+  overflow: hidden;
+}
+body .ball-decoration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../assets/balls-decoration.svg) no-repeat;
+  background-size: cover;
+  width: 98px;
+  height: 88px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-items-end {
+  justify-content: end;
+}
+.align-items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-48 {
+  gap: 48px;
+}
+.gap-102 {
+  gap: 102px;
+}
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.bg-btn {
+  width: 179px;
+  background: #69B99D;
+  border-radius: 4px;
+  padding: 18px 32px;
+}
+.text-F9F9F9 {
+  color: #F9F9F9;
+}
+.text-1F1534 {
+  color: #1F1534;
+}
+.text-7D7987 {
+  color: #7D7987;
+}
+.text-89C5CC {
+  color: #89C5CC;
+}
+.h1 {
+  font: 400 49px/56px 'Mulish';
+}
+.tipography {
+  font: 400 14px/28px 'Open Sans';
+  max-width: 48ch;
+}
+.span {
+  font: 700 14px/28px 'Open Sans';
+}
